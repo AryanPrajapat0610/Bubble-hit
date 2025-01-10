@@ -96,3 +96,44 @@ html, body{
     align-items: center;
     justify-content: center;
 }
+
+
+@media (max-width: 768px) {
+    #gamename {
+        font-size: 30px;
+    }
+
+    #panel {
+        width: 90%;
+        height: 90%;
+    }
+
+    #ptop {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .elem {
+        gap: 5px;
+        flex: none;
+        margin-bottom: 10px;
+    }
+
+    #restart {
+        padding: 10px 15px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .box {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    .bubble {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
